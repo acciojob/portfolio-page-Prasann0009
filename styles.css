@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+#container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: justify;
+}
+img
+{
+  width: 200px;
+  height: 200px;
+}
+a
+{
+  text-decoration: none;
+}
+#skills>h2,#projects>h2{
+  text-align: center;
+}
